@@ -1,0 +1,42 @@
+The output of File name : ps.as is:
+
+The object file: ps.ob was created.
+The extern file: ps.ext was created.
+The entry file:  ps.ent was created.
+----------------------------------------------------------------------------------------
+
+The output of File name : badpath-datasize.as is:
+
+
+file 'badpath-datasize.as' is not correct, object file was not created.
+
+----------------------------------------------------------------------------------------
+
+The output of File name : badpath-immedsize.as is:
+
+
+file 'badpath-immedsize.as' is not correct, object file was not created.
+
+----------------------------------------------------------------------------------------
+
+The output of File name : badpath-pass1.as is:
+
+
+file 'badpath-pass1.as' is not correct, object file was not created.
+
+----------------------------------------------------------------------------------------
+
+The output of File name : badpath-pass2.as is:
+
+
+file 'badpath-pass2.as' is not correct, object file was not created.
+
+----------------------------------------------------------------------------------------
+
+The output of File name : myprog.as is:
+
+The object file: myprog.ob was created.
+The extern file: myprog.ext was created.
+The entry file:  myprog.ent was created.
+----------------------------------------------------------------------------------------
+

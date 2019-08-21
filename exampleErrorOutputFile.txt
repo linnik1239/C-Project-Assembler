@@ -1,0 +1,54 @@
+**ERROR: file: badpath-datasize.as, line: 19 The numeric ,16384 data is out of range (valid for signed 15 bits).
+**ERROR: file: badpath-datasize.as, line: 25 The numeric ,-16385 data is out of range (valid for signed 15 bits).
+----------------------------------------------------------------------------------------
+**ERROR: file: badpath-immedsize.as, line: 19 The num 4096  is out of range (only signed 13 bits is possible).
+**ERROR: file: badpath-immedsize.as, line: 25 The num -4097  is out of range (only signed 13 bits is possible).
+----------------------------------------------------------------------------------------
+**ERROR: file: badpath-pass1.as, line: 18 For this opcode for 2 operands needed ',' between operands.
+**ERROR: file: badpath-pass1.as, line: 21 Nothing was written after opcode.
+**ERROR: file: badpath-pass1.as, line: 27 For this opcode second operand is not correct.
+**ERROR: file: badpath-pass1.as, line: 33 For this opcode the operand is not correct.
+**ERROR: file: badpath-pass1.as, line: 36 The first word for assembly operation is not correct
+**ERROR: file: badpath-pass1.as, line: 39 The first word for assembly operation is not correct
+**ERROR: file: badpath-pass1.as, line: 45 For this opcode  second operand is not correct.
+**ERROR: file: badpath-pass1.as, line: 48 For this opcode second operand is not correct.
+**ERROR: file: badpath-pass1.as, line: 51 Not needed things were written after operand.
+**ERROR: file: badpath-pass1.as, line: 54 The register is not correct inside brackets.
+**ERROR: file: badpath-pass1.as, line: 57 For this opcode  the operand is not correct.
+**ERROR: file: badpath-pass1.as, line: 60 Not needed things were written after second operand.
+**ERROR: file: badpath-pass1.as, line: 63 For this opcode the operand is not correct.
+**ERROR: file: badpath-pass1.as, line: 66 For this opcode  first operand is not correct.
+**ERROR: file: badpath-pass1.as, line: 72 Label must be at beginnig of line without any space before.
+**ERROR: file: badpath-pass1.as, line: 75 For this opcode first operand is not correct.
+**ERROR: file: badpath-pass1.as, line: 78 For this opcode first operand is not correct.
+**ERROR: file: badpath-pass1.as, line: 81 Not needed things were written after opcode.
+**ERROR: file: badpath-pass1.as, line: 84 invalid characters string was written for data
+**ERROR: file: badpath-pass1.as, line: 90 2 contihuas ',' were written between 2 data elements.
+**ERROR: file: badpath-pass1.as, line: 93 ',' was written after last data element.
+**ERROR: file: badpath-pass1.as, line: 96 invalid characters string (#) was written for data
+**ERROR: file: badpath-pass1.as, line: 99 invalid characters string (12.4) was written for data
+**ERROR: file: badpath-pass1.as, line: 102 invalid characters string (--) was written for data
+**ERROR: file: badpath-pass1.as, line: 108 Label, mov cannot be with the same name as opcode.
+**ERROR: file: badpath-pass1.as, line: 111 Label, r1  cannot be with the same name as register.
+**ERROR: file: badpath-pass1.as, line: 117 Label cannot Be begin with digit.
+**ERROR: file: badpath-pass1.as, line: 141 The first word for assembly operation is not correct
+**ERROR: file: badpath-pass1.as, line: 144 The first word for assembly operation is not correct
+**ERROR: file: badpath-pass1.as, line: 150 Missing openning quatation for string
+**ERROR: file: badpath-pass1.as, line: 153 Missing closing quatation for string
+**ERROR: file: badpath-pass1.as, line: 159 Label cannot contain more than 30 digits.
+**ERROR: file: badpath-pass1.as, line: 162 Nothing was written after data declaration.
+**ERROR: file: badpath-pass1.as, line: 165 Nothing were written afeter '.entry'.
+**ERROR: file: badpath-pass1.as, line: 168 The first word for assembly operation is not correct
+**ERROR: file: badpath-pass1.as, line: 69 This label (Next:) was defined before
+**ERROR: file: badpath-pass1.as, line: 114 This label (DATA1:) was defined before
+**ERROR: file: badpath-pass1.as, line: 129 This local label (Start) cannot be declared as external
+**ERROR: file: badpath-pass1.as, line: 138 This label (DATA4) was defined as extern before
+----------------------------------------------------------------------------------------
+**ERROR: file: badpath-pass2.as, line: 22 For this opcode  first operand is not correct.
+**ERROR: file: badpath-pass2.as, line: 25 For this opcode second operand is not correct.
+**ERROR: file: badpath-pass2.as, line: 28 For this opcode  first operand is not correct.
+**ERROR: file: badpath-pass2.as, line: 31 For this opcode second operand is not correct.
+**ERROR: file: badpath-pass2.as, line: 34 This label 'Q' was not defined in this file.
+**ERROR: file: badpath-pass2.as, line: 37 This label 'X' was not defined in this file.
+**ERROR: file: badpath-pass2.as, line: 40 This label 'Y' was not defined in this file.
+----------------------------------------------------------------------------------------
