@@ -4,10 +4,6 @@ Name: Teodor Linnik
 
 
 
-Name: Teodor Linnik
-
-
-
 The project gets from the command line from Linux the names of input files (without ".as" ending) needed to check and make for
 the output files in case of correctness.
 for example in the command line: 
