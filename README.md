@@ -7,6 +7,7 @@ Name: Teodor Linnik
 The project gets from the command line from Linux the names of input files (without ".as" ending) needed to check and make for
 the output files in case of correctness.
 for example in the command line: 
+
 ./Assembler myprog ps badpath-datasize badpath-immedsize badpath-pass1 badpath-pass2
 
 Acording to this input the checked files will be: myprog.as ps.as badpath-datasize.as 
