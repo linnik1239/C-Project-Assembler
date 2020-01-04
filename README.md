@@ -19,12 +19,18 @@ This project consists of 3 parts in main.c file.
 The first part is for building a label table for information about the labels for output.
 The label table is done by the linked list which pointer points to the begging for the label 
 (the first element in the linked list). The linked list construction is:
-typedef struct labelInfo {
+typedef struct labelInfo { 
+
 	char *name; /*Label name*/
+  
 	int address; /*Address of this label*/
+  
 	char type;   /*The type: 'C' Coding label, 'D' data label, 'U' Unknown label for external label.*/
+  
 	char coddingType; /*The codding type: 'A' Another label like "MER: mov r1,r2" that is not entry and notextern, 'E' External label, 'R' entRy label .*/
-	struct labelInfo *next;
+	
+  struct labelInfo *next;
+  
 }labelInfo;
 
 First scanning for every line was done only for lines for code. and then the second scanning for only data
